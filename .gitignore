@@ -18,10 +18,23 @@ Thumbs.db
 # Tinker scratch dirs (throwaway exploratory work)
 .tinker/
 
-# Dependency / build (uncomment per project)
-# node_modules/
-# dist/
-# build/
+# Dependency / build
+node_modules/
+dist/
+dist-ssr/
+build/
 # target/
 # .next/
 # .turbo/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env
+*.local
