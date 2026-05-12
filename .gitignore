@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Forge / Temper runtime artifacts
+.claude/temper-continue-*.md
+.claude/forge-continue.md
+.claude/temper-summary-*.md
+.claude/token-usage.jsonl
+.claude/worktrees/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Tinker scratch dirs (throwaway exploratory work)
+.tinker/
+
+# Dependency / build (uncomment per project)
+# node_modules/
+# dist/
+# build/
+# target/
+# .next/
+# .turbo/
